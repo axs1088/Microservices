@@ -42,4 +42,8 @@ public class ArticleService {
     public void deleteArticle(String id) {
         articles.removeIf(t->t.getId().equals(id));
     }
+
+    public void doSomething(){
+
+    }
 }
